@@ -54,8 +54,9 @@ out "Using install version $INSTALLER_VERSION"
 
 question "Please select the installation mode:"
 INSTALL_MODE=(
-	"Install Paperless"
+	"Install Paperless (bare metal route)"
 	"Uninstall Paperless"
+	"Install Paperless (docker route)"
 	"Exit"
 )
 
@@ -72,6 +73,11 @@ select INSTALL_MODE in "${INSTALL_MODE[@]}"; do
 		break
 		;;
 	3)
+		out "Installation mode: Docker"
+		MODE="docker"
+		break
+		;;
+	4)
 		exit_error "Installation aborted"
 		;;
 	*)

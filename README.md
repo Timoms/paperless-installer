@@ -44,6 +44,7 @@ Just set `DRY_RUN=1` in the config of the script.
 - [x] Basic install task based on official documentation
 - [x] Raspberry Pi Hardware check (manual)
 - [ ] Raspberry Pi Hardware check (automatic)
+- [ ] SMB Option with link to consume directory
 - [ ] Environment checks which service interpreter is used
 - [ ] Redis installation check with port settings
 - [ ] Change Paperless settings to match the script
