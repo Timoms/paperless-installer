@@ -33,8 +33,14 @@ or just download the script and run it manually:
 
 ```wget https://raw.githubusercontent.com/Timoms/paperless-installer/main/paperless-installer.sh```
 
+## Testing
+
+If you want to see the script in action without modifying anything you can use the dryrun option.  
+Just set `DRY_RUN=1` in the config of the script.
+
 ## Roadmap
 
+- [ ] Implement CI testing for the installation script
 - [x] Basic install task based on official documentation
 - [x] Raspberry Pi Hardware check (manual)
 - [ ] Raspberry Pi Hardware check (automatic)
